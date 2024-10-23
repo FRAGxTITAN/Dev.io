@@ -1,0 +1,12 @@
+import { Console } from "console";
+import path from "path";
+//console.log(path.basename("C:\\Users\\huxun\\Desktop\\test.js"));
+console.log(path.basename("C:\\Users\\huxun\\Desktop\\test.js" ,".js"));
+console.log(path.dirname("C:\\Users\\test1.js"));
+console.log(path.extname("C:\\Users\\huxun\\Desktop\\test.html")); 
+console.log(path.parse("C:\\Users\\huxun\\Desktop\\test.html"));
+console.log(path.join("C:","Users","Utkarsh","Desktop","test.html"));
+console.log(path.join("C:","Users","Utkarsh","Desktop","test.html",".."));
+console.log(path.join("C:","Users","Utkarsh","Desktop","test.html","..",".."));
+console.log(path.parse("C:\\Users\\huxun\\Desktop\\test.html").name);
+console.log(path.parse("C:\\Users\\huxun\\Desktop\\test.html").ext);
